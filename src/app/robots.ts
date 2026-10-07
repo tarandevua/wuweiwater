@@ -1,3 +1,14 @@
 import type { MetadataRoute } from 'next';
 import { site } from '@/content/site';
-export default function robots(): MetadataRoute.Robots { return { rules: { userAgent: '*', allow: '/' }, sitemap: `${site.url}/sitemap.xml` }; }
+import { contentSignal } from '@/content/usage';
+
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+      other: { 'Content-Signal': contentSignal },
+    },
+    sitemap: `${site.url}/sitemap.xml`,
+  };
+}
