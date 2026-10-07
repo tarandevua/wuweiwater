@@ -13,8 +13,8 @@ export default async function Layout({ children, params }: { children: React.Rea
   return (
     <html lang={locale}>
       <body className={`${display.variable} ${sans.variable}`}>{children}</body>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-WWV2ZPNMGN" strategy="afterInteractive" />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-WWV2ZPNMGN" strategy="lazyOnload" />
+      <Script id="google-analytics" strategy="lazyOnload">
         {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
