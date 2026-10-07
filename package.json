@@ -1,5 +1,5 @@
 {
-  "name": "wu-wei-water",
+  "name": "wuweiwater",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,17 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@deemlol/next-icons": "^0.2.7",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
-    "typescript": "latest",
+    "@tailwindcss/postcss": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "tailwindcss": "latest",
-    "@tailwindcss/postcss": "latest"
+    "typescript": "latest"
   }
 }
