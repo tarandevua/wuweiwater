@@ -1,6 +1,6 @@
 export const site = {
   name: 'Wu Wei Water',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
+  url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://wuweiwater.art').replace(/\/$/, ''),
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER?.replace(/\D/g, '') || '',
   instagram: process.env.NEXT_PUBLIC_INSTAGRAM_URL || 'https://www.instagram.com/wuweiwater/',
 };

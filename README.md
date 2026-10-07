@@ -36,7 +36,9 @@ Images use Next Image with explicit containers and responsive sizes. Only naviga
 
 Copy `.env.example` to `.env.local` and set the real public origin, WhatsApp number (international digits only) and verified Instagram URL. Rebuild after environment changes. Until WhatsApp is set, book links lead to the contact section and its Instagram link; no placeholder phone number is used.
 
-Replace or approve the reference imagery, especially the illustrative practitioner portrait. Replace the explicitly labeled sample reflections with actual approved client quotes and update their caption. Review translated copy, session details, pool temperatures and suitability guidance. No payments, live availability or booking database are connected. Prices remain hidden until configured. Confirm the final domain before indexing; development canonical URLs use localhost by default.
+Replace or approve the reference imagery, especially the illustrative practitioner portrait. Replace the explicitly labeled sample reflections with actual approved client quotes and update their caption. Review translated copy, session details, pool temperatures and suitability guidance. No payments, live availability or booking database are connected. Prices remain hidden until configured. Confirm the final domain before indexing; local development uses the configured public origin for canonical URLs.
+
+The site renders English and Spanish content as static HTML with canonical URLs, hreflang links, a sitemap, and Organization, Person, WebPage, WebSite and Service JSON-LD. Its default public origin is `https://wuweiwater.art`; set `NEXT_PUBLIC_SITE_URL` if the published origin changes. After deployment, verify the domain in Google Search Console and submit `/sitemap.xml`. Check the live page in Google's URL Inspection tool and validate the JSON-LD against the visible copy. If Wu Wei Water has a Google Business Profile, keep its location and contact details accurate there too. Search and AI answer inclusion is decided by the search providers and cannot be guaranteed by markup.
 
 ## Verification
 
