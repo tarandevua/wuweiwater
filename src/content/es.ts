@@ -2,7 +2,7 @@ import type { Dictionary } from './en';
 export const es: Dictionary = {
   "meta": {
     "title": "Janzu en Riviera Maya — Wu Wei Water",
-    "description": "Sesiones de Janzu y trabajo corporal acuático en agua cálida en Riviera Maya, México. Descubre experiencias individuales y para dos."
+    "description": "Sesiones de Janzu y trabajo corporal acuático en agua en Riviera Maya, México. Descubre experiencias individuales y para dos."
   },
   "nav": [
     "Janzu",
@@ -20,7 +20,7 @@ export const es: Dictionary = {
     "before": "Deja que el agua te ",
     "emphasis": "lleve",
     "after": ".",
-    "description": "Janzu es una sesión guiada de trabajo corporal acuático en agua cálida. Vívela con Wu Wei Water en Riviera Maya, México.",
+    "description": "Janzu es una sesión guiada de trabajo corporal acuático en agua. Vívela con Wu Wei Water en Riviera Maya, México.",
     "book": "Reserva una sesión",
     "discover": "Descubre Janzu",
     "label": "Vive Janzu",
@@ -212,7 +212,7 @@ export const es: Dictionary = {
       },
       {
         "question": "¿A qué temperatura está el agua?",
-        "answer": "Las sesiones se realizan en agua totalmente cálida. La temperatura exacta depende de la piscina y de las condiciones climáticas; consúltanos al reservar."
+        "answer": "La temperatura exacta depende de la piscina y de las condiciones climáticas; consúltanos al reservar."
       },
       {
         "question": "¿Janzu es adecuado para todas las personas?",
@@ -239,7 +239,7 @@ export const es: Dictionary = {
   "tagline": "Muévete con el agua. No contra ella.",
   "media": {
     "hero": "Una persona flota bajo el agua con reflejos de luz sobre el cuerpo",
-    "janzu": "Un practicante sostiene suavemente a una persona que flota en agua cálida",
+    "janzu": "Un practicante sostiene suavemente a una persona que flota en agua",
     "practitioner": "Retrato de referencia de un practicante en una piscina al atardecer",
     "location": "Una piscina privada rodeada de vegetación al anochecer"
   }

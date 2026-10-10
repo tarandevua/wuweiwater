@@ -1,7 +1,7 @@
 export const en = {
   "meta": {
     "title": "Janzu in Riviera Maya — Wu Wei Water",
-    "description": "Janzu aquatic bodywork in warm water in Riviera Maya, Mexico. Explore individual and two-person sessions with Wu Wei Water."
+    "description": "Janzu aquatic bodywork in water in Riviera Maya, Mexico. Explore individual and two-person sessions with Wu Wei Water."
   },
   "nav": [
     "Janzu",
@@ -19,7 +19,7 @@ export const en = {
     "before": "Let the water ",
     "emphasis": "carry",
     "after": " you.",
-    "description": "Janzu is a guided aquatic bodywork session in warm water. Experience it with Wu Wei Water in Riviera Maya, Mexico.",
+    "description": "Janzu is a guided aquatic bodywork session in water. Experience it with Wu Wei Water in Riviera Maya, Mexico.",
     "book": "Book a session",
     "discover": "Discover Janzu",
     "label": "Experience Janzu",
@@ -211,7 +211,7 @@ export const en = {
       },
       {
         "question": "What temperature is the water?",
-        "answer": "Sessions use comfortably warm water. The exact temperature depends on the selected pool and conditions; please ask when arranging your session."
+        "answer": "The exact temperature depends on the selected pool and conditions; please ask when arranging your session."
       },
       {
         "question": "Is Janzu suitable for everyone?",
@@ -238,7 +238,7 @@ export const en = {
   "tagline": "Move with water. Not against it.",
   "media": {
     "hero": "A person floating underwater with sunlight rippling across their body",
-    "janzu": "A practitioner gently supporting a person floating in warm water",
+    "janzu": "A practitioner gently supporting a person floating in water",
     "practitioner": "Reference portrait of a practitioner standing in a pool at golden hour",
     "location": "A private pool surrounded by lush greenery at dusk"
   }
