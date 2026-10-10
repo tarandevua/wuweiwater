@@ -2,7 +2,7 @@ import type { Dictionary } from './en';
 export const es: Dictionary = {
   "meta": {
     "title": "Janzu en Riviera Maya — Wu Wei Water",
-    "description": "Sesiones de Janzu y trabajo corporal acuático en agua en Riviera Maya, México. Descubre experiencias individuales y para dos."
+    "description": "Sesiones guiadas de Janzu en Riviera Maya, México. Baja el ritmo, flota y deja que el agua te lleve con Wu Wei Water."
   },
   "nav": [
     "Janzu",

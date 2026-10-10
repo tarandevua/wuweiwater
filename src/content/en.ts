@@ -1,7 +1,7 @@
 export const en = {
   "meta": {
     "title": "Janzu in Riviera Maya — Wu Wei Water",
-    "description": "Janzu aquatic bodywork in water in Riviera Maya, Mexico. Explore individual and two-person sessions with Wu Wei Water."
+    "description": "Guided Janzu aquatic bodywork in Riviera Maya, Mexico. Slow down, float, and let the water carry you with Wu Wei Water."
   },
   "nav": [
     "Janzu",

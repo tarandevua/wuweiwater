@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(locale)) notFound();
 
   const c = languages[locale].dictionary;
-  const image = '/media/hero.jpg';
+  const image = `/media/share-${locale}.png`;
   return {
     metadataBase: new URL(site.url),
     title: c.meta.title,
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: locale === 'es' ? 'es_MX' : 'en_US',
       alternateLocale: locale === 'es' ? ['en_US'] : ['es_MX'],
       type: 'website',
-      images: [{ url: image, width: 1920, height: 1088, alt: c.media.hero }],
+      images: [{ url: image, width: 1200, height: 630, alt: c.meta.title }],
     },
     twitter: {
       card: 'summary_large_image',
