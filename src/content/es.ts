@@ -1,18 +1,246 @@
 import type { Dictionary } from './en';
 export const es: Dictionary = {
-  meta: { title: 'Janzu en Riviera Maya — Wu Wei Water', description: 'Sesiones de Janzu y trabajo corporal acuático en agua cálida en Riviera Maya, México. Descubre experiencias individuales y para dos.' },
-  nav: ['Janzu', 'Experiencia', 'Sesiones', 'Acerca de', 'Preguntas'], book: 'Reservar', menu: 'Abrir menú', close: 'Cerrar menú', language: 'Idioma', skip: 'Saltar al contenido',
-  hero: { before: 'Deja que el agua te ', emphasis: 'lleve', after: '.', description: 'Janzu es una sesión guiada de trabajo corporal acuático en agua cálida. Vívela con Wu Wei Water en Riviera Maya, México.', book: 'Reserva una sesión', discover: 'Descubre Janzu', label: 'Vive Janzu', location: 'Riviera Maya · México' },
-  janzu: { label: 'La práctica', title: '¿Qué es Janzu?', paragraphs: ['Janzu es una práctica de trabajo corporal acuático que se vive en agua cálida.', 'Durante la sesión, tu cuerpo recibe apoyo y es guiado suavemente a través de movimientos fluidos, estiramientos, quietud y, cuando es apropiado, breves inmersiones.', 'No hay nada que tengas que hacer. Simplemente permite que el agua te sostenga.'], quote: ['Cada sesión es diferente.', 'Deja que el agua te lleve a donde necesites ir.'] },
-  experience: { label: 'La experiencia', title: 'Un viaje en cuatro movimientos', steps: [{ title: 'Llegar', description: 'Tómate un momento para conectar, respirar y prepararte para la experiencia.' }, { title: 'Flotar', description: 'Tu cuerpo se apoya en el agua cálida mientras el movimiento se vuelve cada vez más natural.' }, { title: 'Soltar', description: 'El movimiento, la quietud y el agua crean espacio para soltar el control y simplemente sentir.' }, { title: 'Integrar', description: 'Después de la sesión, hay tiempo para descansar y observar lo que permanece.' }] },
-  reasons: { label: 'Lo que nos trae al agua', intro: 'Las personas se acercan a Janzu para explorar', items: ['relajación profunda', 'bajar el ritmo', 'conciencia corporal', 'presencia', 'confianza', 'soltar', 'conexión con el agua', 'espacio emocional', 'curiosidad', 'algo nuevo'], statement: ['Nada que lograr.', 'Nada que demostrar.', 'Solo agua, movimiento y presencia.'] },
-  sessions: { label: 'Sesiones', title: 'Encuentra tu agua', items: [{ title: 'Experiencia Janzu', duration: '60–75 minutos', description: 'Una experiencia individual completa de trabajo corporal acuático.', cta: 'Vive Janzu' }, { title: 'Viaje profundo en el agua', duration: '90 minutos', description: 'Una experiencia más pausada, con tiempo adicional para llegar e integrar.', cta: 'Explorar' }, { title: 'Janzu para dos', duration: '', description: 'Dos viajes individuales en el agua para parejas o amistades que desean compartir la experiencia.', cta: 'Consulta las sesiones' }] },
-  philosophy: { label: 'Filosofía', title: '¿Por qué Wu Wei?', paragraphs: ['Wu Wei (無為) es un principio taoísta que suele traducirse como acción sin esfuerzo o no forzar.', 'El agua lo expresa de forma natural. No lucha con el camino. Responde. Se adapta. Fluye.', 'Wu Wei Water lleva este principio a una experiencia corporal: un espacio donde no necesitas forzar la relajación, la transformación ni el movimiento.', 'A veces, la invitación es simplemente dejar de hacer y permitir que el agua te lleve.'], statement: ['El agua no fuerza.', 'Fluye.'] },
-  practitioner: { label: 'Tu acompañante', title: 'Conoce a Andre', paragraphs: ['Soy Andre Ram, practicante de trabajo corporal acuático y creador de Wu Wei Water.', 'Mi trabajo explora el encuentro entre el agua, el movimiento, la presencia y la entrega.'], lineage: [{ text: 'Aprendí Janzu con ' }, { text: 'Ivan Goa', href: 'https://www.instagram.com/ivangoa' }, { text: ', quien aprendió de ' }, { text: 'María Ornelas', href: 'https://www.instagram.com/maria_ornelas_janzu' }, { text: '. María aprendió de Patik (Juan Villatoro), quien dio nombre al Janzu en los años noventa.' }], school: [{ text: 'María desarrolló una forma de enseñar esta práctica que dio lugar a la ' }, { text: 'Escuela de Artes Acuáticas', href: 'https://www.instagram.com/casadeartesacuaticas' }, { text: ' y ayudó a dar forma a Colectivo Agua. Agradezco poder llevar este linaje a mi propio trabajo en el agua.' }], historyLink: 'Conoce la historia en Colectivo Agua' },
-  testimonials: { label: 'Palabras desde el agua', selector: 'Ver reflexión', note: '', items: [{ quote: 'Por primera vez en mucho tiempo, sentí que no tenía que controlar nada.' }, { quote: 'Llegué con curiosidad. Me fui con ligereza y una gran calma interior.' }, { quote: 'Un momento para bajar el ritmo, flotar y simplemente estar.' }] },
-  location: { label: 'Ubicación', title: 'Actualmente en Riviera Maya', description: 'Las sesiones se realizan en agua cálida, en piscinas privadas seleccionadas de Riviera Maya, México. Consulta la disponibilidad en otras ubicaciones y de sesiones privadas.', current: 'Riviera Maya, México — Ahora' },
-  faq: { label: 'Preguntas', title: 'Antes de llegar', items: [{ question: '¿Cómo reservo una sesión de Janzu?', answer: 'Usa el enlace de reserva para enviarnos un mensaje. Confirmaremos la disponibilidad, la ubicación de la piscina y los detalles antes de tu sesión.' }, { question: '¿Dónde se realizan las sesiones de Janzu?', answer: 'Las sesiones se realizan en piscinas privadas seleccionadas con agua cálida en Riviera Maya, México. Confirmaremos el lugar exacto al organizar tu sesión.' }, { question: '¿Necesito saber nadar?', answer: 'No necesitas realizar movimientos de natación. Recibes apoyo durante toda la sesión. Cuéntanos cómo te sientes en el agua para valorar juntos la mejor manera de acompañarte.' }, { question: '¿Me voy a sumergir?', answer: 'Solo si te sientes a gusto y das tu consentimiento. La inmersión siempre es opcional. Puedes permanecer en la superficie, cambiar de opinión o hacer una pausa en cualquier momento.' }, { question: '¿Qué debo llevar?', answer: 'Trae un traje de baño cómodo, una toalla y agua para beber. Confirmaremos los detalles de la ubicación antes de tu sesión.' }, { question: '¿Cuánto dura una sesión?', answer: 'La Experiencia Janzu dura entre 60 y 75 minutos. El Viaje profundo en el agua dura 90 minutos e incluye más tiempo para llegar e integrar. El horario para dos personas se acuerda individualmente.' }, { question: '¿A qué temperatura está el agua?', answer: 'Las sesiones se realizan en agua agradablemente cálida. La temperatura exacta depende de la piscina y de las condiciones; consúltanos al reservar.' }, { question: '¿Janzu es adecuado para todas las personas?', answer: 'Depende de cada persona. Antes de reservar, cuéntanos si tienes alguna condición de salud, embarazo, cirugía reciente o inquietud. Si tienes dudas, consulta con un profesional de la salud. Janzu es una experiencia de bienestar y no sustituye la atención médica.' }, { question: '¿Qué pasa después de la sesión?', answer: 'Hay tiempo para descansar, volver a tu ritmo y observar cómo te sientes. Deja un poco de espacio en tu día, bebe agua y comparte lo que quieras conversar.' }] },
-  contact: { label: 'Vive Janzu', title: '¿Listo para conocer el agua?', lines: ['No necesitas saber qué esperar.', 'Ven tal como eres.'], cta: 'Reserva tu sesión', message: '¡Hola! Me gustaría reservar una sesión de Janzu.', fallback: 'Para organizar tu sesión, envíanos un mensaje por Instagram.', instagramCta: 'Escríbenos por Instagram' },
-  tagline: 'Muévete con el agua. No contra ella.',
-  media: { hero: 'Una persona flota bajo el agua con reflejos de luz sobre el cuerpo', janzu: 'Un practicante sostiene suavemente a una persona que flota en agua cálida', practitioner: 'Retrato de referencia de un practicante en una piscina al atardecer', location: 'Una piscina privada rodeada de vegetación al anochecer' },
+  "meta": {
+    "title": "Janzu en Riviera Maya — Wu Wei Water",
+    "description": "Sesiones de Janzu y trabajo corporal acuático en agua cálida en Riviera Maya, México. Descubre experiencias individuales y para dos."
+  },
+  "nav": [
+    "Janzu",
+    "Experiencia",
+    "Sesiones",
+    "Acerca de",
+    "Preguntas"
+  ],
+  "book": "Reservar",
+  "menu": "Abrir menú",
+  "close": "Cerrar menú",
+  "language": "Idioma",
+  "skip": "Saltar al contenido",
+  "hero": {
+    "before": "Deja que el agua te ",
+    "emphasis": "lleve",
+    "after": ".",
+    "description": "Janzu es una sesión guiada de trabajo corporal acuático en agua cálida. Vívela con Wu Wei Water en Riviera Maya, México.",
+    "book": "Reserva una sesión",
+    "discover": "Descubre Janzu",
+    "label": "Vive Janzu",
+    "location": "Riviera Maya · México"
+  },
+  "janzu": {
+    "label": "La práctica",
+    "title": "¿Qué es Janzu?",
+    "paragraphs": [
+      "Janzu es una práctica de trabajo corporal acuático que se vive en agua.",
+      "Durante la sesión, tu cuerpo recibe apoyo y es guiado suavemente a través de movimientos fluidos, estiramientos, quietud y, cuando es apropiado, breves inmersiones.",
+      "No hay nada que tengas que hacer. Simplemente permite que el agua te sostenga."
+    ],
+    "quote": [
+      "Cada sesión es diferente.",
+      "Deja que el agua te lleve a donde necesites ir."
+    ]
+  },
+  "experience": {
+    "label": "La experiencia",
+    "title": "Un viaje en cuatro movimientos",
+    "steps": [
+      {
+        "title": "Llegar",
+        "description": "Tómate un momento para conectar, respirar y prepararte para la experiencia."
+      },
+      {
+        "title": "Flotar",
+        "description": "Tu cuerpo se apoya en el agua cálida mientras el movimiento se vuelve cada vez más natural."
+      },
+      {
+        "title": "Soltar",
+        "description": "El movimiento, la quietud y el agua crean espacio para soltar el control y simplemente sentir."
+      },
+      {
+        "title": "Integrar",
+        "description": "Después de la sesión, hay tiempo para descansar y observar lo que permanece."
+      }
+    ]
+  },
+  "reasons": {
+    "label": "Lo que nos trae al agua",
+    "intro": "Las personas se acercan a Janzu para explorar",
+    "items": [
+      "relajación profunda",
+      "bajar el ritmo",
+      "conciencia corporal",
+      "presencia",
+      "confianza",
+      "soltar",
+      "conexión con el agua",
+      "espacio emocional",
+      "curiosidad",
+      "algo nuevo"
+    ],
+    "statement": [
+      "Nada que lograr.",
+      "Nada que demostrar.",
+      "Solo agua, movimiento y presencia."
+    ]
+  },
+  "sessions": {
+    "label": "Sesiones",
+    "title": "Encuentra tu agua",
+    "items": [
+      {
+        "title": "Experiencia Janzu",
+        "duration": "60–75 minutos",
+        "description": "Una experiencia individual completa de trabajo corporal acuático.",
+        "cta": "Vive Janzu"
+      },
+      {
+        "title": "Viaje profundo en el agua",
+        "duration": "90 minutos",
+        "description": "Una experiencia más pausada, con tiempo adicional para llegar e integrar.",
+        "cta": "Explorar"
+      },
+      {
+        "title": "Janzu para dos",
+        "duration": "",
+        "description": "Dos viajes individuales en el agua para parejas o amistades que desean compartir la experiencia.",
+        "cta": "Consulta las sesiones"
+      }
+    ]
+  },
+  "philosophy": {
+    "label": "Filosofía",
+    "title": "¿Por qué Wu Wei?",
+    "paragraphs": [
+      "Wu Wei (無為) es un principio taoísta que suele traducirse como acción sin esfuerzo o no forzar.",
+      "El agua se expresa de forma natural. No lucha contra el camino. Responde. Se adapta. Fluye.",
+      "Wu Wei Water lleva este principio a una experiencia corporal: un espacio donde no necesitas forzar la relajación, la transformación ni el movimiento.",
+      "A veces, la invitación es simplemente dejar de hacer y permitir que el agua te lleve."
+    ],
+    "statement": [
+      "El agua no fuerza.",
+      "Fluye."
+    ]
+  },
+  "practitioner": {
+    "label": "Tu acompañante",
+    "title": "Conoce a André",
+    "paragraphs": [
+      "Soy André Ram, practicante de trabajo corporal acuático y creador de Wu Wei Water.",
+      "Mi trabajo explora el encuentro entre el agua, el movimiento, la presencia y la entrega."
+    ],
+    "lineage": [
+      {
+        "text": "Aprendí Janzu con "
+      },
+      {
+        "text": "Ivan Goa",
+        "href": "https://www.instagram.com/ivangoa"
+      },
+      {
+        "text": ", quien aprendió de "
+      },
+      {
+        "text": "María Ornelas",
+        "href": "https://www.instagram.com/maria_ornelas_janzu"
+      },
+      {
+        "text": ". María aprendió de Patik (Juan Villatoro), quien dio nombre al Janzu en los años noventa."
+      }
+    ],
+    "school": [
+      {
+        "text": "María desarrolló una forma de enseñar esta práctica que dio lugar a la "
+      },
+      {
+        "text": "Escuela de Artes Acuáticas",
+        "href": "https://www.instagram.com/casadeartesacuaticas"
+      },
+      {
+        "text": " y ayudó a dar forma a Colectivo Agua. Agradezco poder llevar este linaje a mi propio trabajo en el agua."
+      }
+    ],
+    "historyLink": "Conoce la historia en Colectivo Agua"
+  },
+  "testimonials": {
+    "label": "Palabras desde el agua",
+    "selector": "Ver reflexión",
+    "note": "",
+    "items": [
+      {
+        "quote": "Por primera vez en mucho tiempo, sentí que no tenía que controlar nada."
+      },
+      {
+        "quote": "Llegué con curiosidad. Me fui con ligereza y una gran calma interior."
+      },
+      {
+        "quote": "Un momento para bajar el ritmo, flotar y simplemente estar."
+      }
+    ]
+  },
+  "location": {
+    "label": "Ubicación",
+    "title": "Actualmente en Riviera Maya",
+    "description": "Las sesiones se realizan en piscinas privadas seleccionadas a lo largo de la Riviera Maya, en México. Consulta la disponibilidad  de sesiones privadas en otras ubicaciones.",
+    "current": "Riviera Maya, México — Ahora"
+  },
+  "faq": {
+    "label": "Preguntas",
+    "title": "Antes de llegar",
+    "items": [
+      {
+        "question": "¿Cómo reservo una sesión de Janzu?",
+        "answer": "Contáctanos a través  del enlace de WhatsApp. Confirmaremos la disponibilidad, la ubicación de la piscina y todos los detalles antes de tu sesión."
+      },
+      {
+        "question": "¿Dónde se realizan las sesiones de Janzu?",
+        "answer": "Las sesiones se realizan en piscinas privadas seleccionadas en la Riviera Maya, México. Confirmaremos el lugar exacto al organizar tu sesión."
+      },
+      {
+        "question": "¿Necesito saber nadar?",
+        "answer": "No necesitas realizar movimientos de natación. Recibes apoyo durante toda la sesión. Cuéntanos cómo te sientes dentro del agua y valorar la mejor forma de acompañarte."
+      },
+      {
+        "question": "¿Me voy a sumergir?",
+        "answer": "Solo si te sientes a gusto y das tu consentimiento. La inmersión siempre es opcional. Puedes permanecer en la superficie, cambiar de opinión o hacer una pausa en cualquier momento."
+      },
+      {
+        "question": "¿Qué debo llevar?",
+        "answer": "Trae un traje de baño cómodo, una toalla y agua. Confirmaremos los detalles de la ubicación antes de tu sesión."
+      },
+      {
+        "question": "¿Cuánto dura una sesión?",
+        "answer": "La experiencia Janzu dura entre 60 y 75 minutos. El Viaje profundo dura 90 minutos, incluye más tiempo para llegar e integrar. El horario para dos personas se acuerda individualmente."
+      },
+      {
+        "question": "¿A qué temperatura está el agua?",
+        "answer": "Las sesiones se realizan en agua totalmente cálida. La temperatura exacta depende de la piscina y de las condiciones climáticas; consúltanos al reservar."
+      },
+      {
+        "question": "¿Janzu es adecuado para todas las personas?",
+        "answer": "Depende de cada persona. Antes de reservar, cuéntanos si tienes alguna condición de salud, embarazo, cirugía reciente o inquietud. Si tienes dudas, consulta con un profesional de la salud. Janzu es una experiencia de bienestar y no sustituye la atención médica."
+      },
+      {
+        "question": "¿Qué pasa después de la sesión?",
+        "answer": "Hay tiempo para descansar, volver a tu ritmo y observar cómo te sientes. Deja un poco de espacio en tu día, bebe agua y comparte lo que quieras conversar."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Experiencia Janzu",
+    "title": "¿Con ganas de conocerte dentro del agua?",
+    "lines": [
+      "No necesitas saber qué esperar.",
+      "Ven tal como eres."
+    ],
+    "cta": "Reserva tu sesión",
+    "message": "¡Hola! Me gustaría reservar una sesión de Janzu.",
+    "fallback": "Para organizar tu sesión, envíanos un mensaje por Instagram.",
+    "instagramCta": "Escríbenos por Instagram"
+  },
+  "tagline": "Muévete con el agua. No contra ella.",
+  "media": {
+    "hero": "Una persona flota bajo el agua con reflejos de luz sobre el cuerpo",
+    "janzu": "Un practicante sostiene suavemente a una persona que flota en agua cálida",
+    "practitioner": "Retrato de referencia de un practicante en una piscina al atardecer",
+    "location": "Una piscina privada rodeada de vegetación al anochecer"
+  }
 };
