@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { isLocale, languages, locales } from '@/content/i18n';
+import { isLocale, languages, locales, localePath } from '@/content/i18n';
 import { offerings, site } from '@/content/site';
 import { Landing } from '@/components/landing';
 
@@ -11,22 +11,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(locale)) notFound();
 
   const c = languages[locale].dictionary;
+  const canonicalPath = localePath(locale);
+  const canonicalUrl = new URL(canonicalPath, site.url).toString();
   const image = `/media/share-${locale}.png`;
   return {
     metadataBase: new URL(site.url),
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `/${locale}`,
+      canonical: canonicalUrl,
       languages: {
-        ...Object.fromEntries(locales.map(code => [code, `/${code}`])),
-        'x-default': '/en',
+        ...Object.fromEntries(locales.map(code => [code, new URL(localePath(code), site.url).toString()])),
+        'x-default': `${site.url}/`,
       },
     },
     openGraph: {
       title: c.meta.title,
       description: c.meta.description,
-      url: `/${locale}`,
+      url: canonicalUrl,
       siteName: site.name,
       locale: locale === 'es' ? 'es_MX' : 'en_US',
       alternateLocale: locale === 'es' ? ['en_US'] : ['es_MX'],
@@ -47,7 +49,7 @@ export default async function Page({ params }: Props) {
   if (!isLocale(locale)) notFound();
 
   const c = languages[locale].dictionary;
-  const pageUrl = `${site.url}/${locale}`;
+  const pageUrl = new URL(localePath(locale), site.url).toString();
   const organizationId = `${site.url}/#organization`;
   const practitionerId = `${site.url}/#practitioner`;
   const serviceIds = offerings.map(offering => `${pageUrl}#${offering.id}`);

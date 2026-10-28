@@ -6,7 +6,7 @@ const config: NextConfig = {
   async headers() {
     return [
       { source: '/:path*', headers: [{ key: 'Content-Signal', value: contentSignal }] },
-      ...['/en', '/es'].map(source => ({
+      ...['/', '/en', '/es'].map(source => ({
         source,
         headers: [
           { key: 'Link', value: siteDiscoveryLinks },

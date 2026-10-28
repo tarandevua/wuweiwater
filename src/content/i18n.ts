@@ -5,3 +5,4 @@ export type Locale = keyof typeof languages;
 export const locales = Object.keys(languages) as Locale[];
 export const defaultLocale: Locale = 'en';
 export function isLocale(value: string): value is Locale { return Object.hasOwn(languages, value); }
+export function localePath(locale: Locale) { return locale === defaultLocale ? '/' : `/${locale}`; }

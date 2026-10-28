@@ -12,7 +12,9 @@ function acceptsMarkdown(header: string | null) {
 
 export function proxy(request: NextRequest) {
   if (!acceptsMarkdown(request.headers.get('accept'))) {
-    const response = NextResponse.next();
+    const response = request.nextUrl.pathname === '/'
+      ? NextResponse.rewrite(new URL('/en', request.url))
+      : NextResponse.next();
     response.headers.append('Vary', 'Accept');
     return response;
   }

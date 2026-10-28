@@ -1,4 +1,4 @@
-import { languages, type Locale } from './i18n';
+import { languages, localePath, type Locale } from './i18n';
 import { offerings, site } from './site';
 
 export const apiVersion = '1.0.0';
@@ -13,6 +13,6 @@ export function getPublicOfferings(locale: Locale) {
       duration: item.duration || null,
       description: item.description,
     })),
-    pageUrl: `${site.url}/${locale}#sessions`,
+    pageUrl: `${new URL(localePath(locale), site.url).toString()}#sessions`,
   };
 }

@@ -21,7 +21,7 @@ export function GET() {
       sameAs: [site.instagram],
     },
     hasPart: [
-      { '@type': 'WebPage', url: `${site.url}/en`, name: en.meta.title, inLanguage: 'en' },
+      { '@type': 'WebPage', url: `${site.url}/`, name: en.meta.title, inLanguage: 'en' },
       { '@type': 'WebPage', url: `${site.url}/es`, name: es.meta.title, inLanguage: 'es' },
     ],
     about: en.sessions.items.map(session => ({

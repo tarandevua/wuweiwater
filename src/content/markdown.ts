@@ -1,9 +1,9 @@
-import { languages, type Locale } from './i18n';
+import { languages, localePath, type Locale } from './i18n';
 import { bookingUrl, site } from './site';
 
 export function renderPageMarkdown(locale: Locale) {
   const c = languages[locale].dictionary;
-  const pageUrl = `${site.url}/${locale}`;
+  const pageUrl = new URL(localePath(locale), site.url).toString();
   const hero = `${c.hero.before}${c.hero.emphasis}${c.hero.after}`;
   const lines = [
     '---',
